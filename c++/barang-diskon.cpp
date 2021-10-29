@@ -16,6 +16,7 @@ main() {
 
     cout << "--------------------------------\n";
 
+    // Bila input jumlah barang atau harga barang 0 maka kembalikan user ke awal dengan peringatan
     if ( jumlah == 0 || harga == 0 ) {
         cout << "Jumlah barang atau harga barang yang ada masukkan tidak valid\n\n";
         getch();
@@ -27,6 +28,7 @@ main() {
 
     cout << "Total Harga\t: Rp. " << total << endl;
 
+    // Tentukan diskon bila input lebih dari 0
     if ( diskon > 0 ) {
         potongan = (total * diskon) / 100;
         cout << "Potongan Harga\t: Rp. " << potongan << endl;
@@ -40,6 +42,7 @@ main() {
 
     cout << "Harga Bersih\t: Rp. " << bersih << endl;
 
+    // Tunggu input dari user sebelum melanjutkan ke konfirmasi
     getch();
 
     cout << "\nIngin menghitung kembali? [Y/N]";
