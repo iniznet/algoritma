@@ -12,8 +12,8 @@ main() {
     printf( "\t\t\tHari Bulan \
     \n------------------------------------------------------------------ \
     \n 1. Januari \t 4. April \t 7. Juli \t 10. Oktober \
-    \n 2. Februari \t 5. Mei \t 8. Agustus \t 11. November\
-    \n 3. Maret \t 6. Juni \t 9. September \t 12. Desember\
+    \n 2. Februari \t 5. Mei \t 8. Agustus \t 11. November \
+    \n 3. Maret \t 6. Juni \t 9. September \t 12. Desember \
     \n------------------------------------------------------------------\n" );
     cout << " Masukkan angka tahun\t\t: ";
     cin >> tahun;
