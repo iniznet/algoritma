@@ -27,7 +27,7 @@ main() {
             break;
         case 2:
             namaBulan = "Februari";
-            if ( tahun % 100 == 0 && tahun % 400 == 0 ) {
+            if ( tahun % 4 == 0 || tahun % 400 == 0 ) {
                 hari = 29;
             } else {
                 hari = 28;
