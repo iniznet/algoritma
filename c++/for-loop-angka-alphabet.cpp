@@ -4,29 +4,63 @@
 using namespace std;
 
 main() {
-    int angka[5] = {1, 2, 3, 4, 5};
-    char alphabet[5] = {'A', 'B', 'C', 'D', 'E'};
+    int i;
 
-    for ( int i = 0; i < 5; i++ ) {
-        cout << angka[i] << alphabet[i] << " ";
-    }
-    
-    cout << endl;
-    
-    for ( int i = 4; i >= 0; i-- ) {
-        cout << angka[i] << alphabet[i] << " ";
+    cout << "  For Loop Alphabet & Angka";
+    cout << endl << "=============================" << endl;
+
+    for ( i = 1; i <= 5; i++ ) {
+        cout << " " << i * 3;
     }
 
     cout << endl;
 
-    for ( int i = 0; i < 5; i++ ) {
-        cout << alphabet[i] << angka[i] << " ";
+    for ( i = 5; i > 0; i-- ) {
+        cout << " " << i * 3;
     }
-    
+
     cout << endl;
 
-    for ( int i = 4; i >= 0; i-- ) {
-        cout << alphabet[i] << angka[i] << " ";
+    for ( char a = 'A'; a <= 'E'; a++ ) {
+        cout << " " << a;
+    }
+
+    cout << endl;
+
+    for ( char a = 'E'; a >= 'A'; a-- ) {
+        cout << " " << a;
+    }
+
+    cout << endl << "-----------------------------" << endl;
+
+    i = 1;
+    for ( char a = 'A'; a <= 'E'; a++ ) {
+        cout << " " << i << a;
+        i++;
+    }
+
+    cout << endl;
+
+    i = 5;
+    for ( char a = 'E'; a >= 'A'; a-- ) {
+        cout << " " << i << a;
+        i--;
+    }
+
+    cout << endl;
+
+    i = 1;
+    for ( char a = 'A'; a <= 'E'; a++ ) {
+        cout << " " << a << i;
+        i++;
+    }
+
+    cout << endl;
+
+    i = 5;
+    for ( char a = 'E'; a >= 'A'; a-- ) {
+        cout << " " << a << i;
+        i--;
     }
 
     getch();
