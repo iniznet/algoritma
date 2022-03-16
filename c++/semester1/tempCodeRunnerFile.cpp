@@ -24,9 +24,9 @@ main() {
     int num = 31;
     int minNum = num; // duplicate num
     
-    // create inverted rows of numbers from num
+    // buat inverted baris segitiga
     for (int i = 0; i < rows; i++) {
-        // create spacing new line
+        // tambah spasi
         for (int j = 0; j < i; ++j)
         {
             if ( max > 3 && max < 7 ) {
@@ -36,14 +36,14 @@ main() {
             }
         }
 
-        // find min number in row based on max
+        // cari batas minimum dari num berdasarkan max
         int minNumberRow = findMin( minNum, max );
-        // assign min number to minNum for later checking
+        // simpan hasil minNumberRow ke minNum untuk di cek nanti
         minNum = minNumberRow;
-        // assign minNum to num
+        // salin hasil ke num
         num = minNum;
 
-        // create numbers
+        // tampilkan angka
         for (int j = 0; j < max; j++) {
             num+=2;
             cout << num << " ";
@@ -62,9 +62,9 @@ main() {
     max = 1;
     num = 1;
 
-    // create rows of numbers from num
+    // buat segitiga normal
     for (int i = 0; i < rows; i++) {
-        // create spacing new line
+        // tambahkan spasi
         for (int j = 0; j < rows - i; ++j)
 		{
             if ( max < 5 ) {
@@ -76,7 +76,7 @@ main() {
             }
 		}
 
-        // create numbers
+        // tampilkan angka
         for (int j = 0; j < max; j++) {
             cout << num << " ";
 
