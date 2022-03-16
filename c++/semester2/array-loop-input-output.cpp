@@ -9,7 +9,7 @@ using namespace std;
  * 
  * Dilakukan pembagian antara panjang array nilai dan urutan index nilai ke 0 untuk mendapatkan
  * ukuran panjang yang tepat karena satu angka integer mempresentasikan 4 byte sehingga 4 byte * panjang array = total byte
- * dengan demikian: (4 * 5) = (20 / 4) = 5
+ * dengan demikian didapatkan: (4 * 5) = (20 / 4) = 5
  */
 
 int main()
